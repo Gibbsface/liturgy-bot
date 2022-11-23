@@ -1,0 +1,11 @@
+js Date() creates a date object
+
+31_cycle = d.getDate(); //cycles 1-31
+
+7_cycle = 1 + ((31_cycle + 1) % 7) // cycles 1-7
+
+366_cycle = () => {
+
+	year_start = new Date(
+
+}
