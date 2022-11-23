@@ -18,6 +18,11 @@ const cycle_7 = 1 + ((cycle_31-1) % 7);
 //calculate day for 366 cycle
 // TODO
 
+//Need to check if leap year
+//if leap year, calc as normal (366)
+//OR if not leap year and before March 1, also calc as normal
+//else if not leap year and after Feb 28, then add 1 to normal dates
+
 
 
 
